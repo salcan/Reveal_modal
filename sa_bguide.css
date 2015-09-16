@@ -1,0 +1,209 @@
+.sa_ax_left_col {
+	margin:0;
+	padding:0;
+	width:540px;
+	float:left;
+	font-size: 11px;
+	line-height: 16px;
+	/* I'm not sure on these ones */
+	font:normal 12px/150% Verdana, Arial, Helvetica, sans-serif;
+	color:#414143;
+	padding-bottom: 20px;
+}
+
+.sa_ax_left_col p{
+  padding:0;
+	margin:10px 0 0 0;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sa_ax_tab_title {
+  padding:0;
+	font-weight:bold;
+	font-family: Lucida Grande,Helvetica,arial,sans-serif;
+	font-size:18px;
+	color:#344E67;
+	margin:10px 0 0 20px;
+}
+
+.sa_ax_product_images{
+	margin:10px 16px 0 0;
+	padding:0;
+	width:106px;
+	min-height:30px;
+	height:auto !important;
+	height:50px;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+.sa_ax_product_images img {
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.sa_ax_product_description2{
+  margin:0;
+  padding:0;
+	width:305px;
+	display:block;
+	float:left;
+}
+
+.sa_ax_product_description2 h3 {
+  margin:0 !important;
+  padding:0 !important;
+	font-weight:bold !important;
+	font-size:13px !important;
+	padding-top:4px !important;
+	color: #414143 !important;
+	line-height: 18px !important;
+	font-family: Verdana,Arial,Helvetica,sans-serif !important;
+	background-image:none !important;
+	border:0 !important;
+	text-align: left !important;
+}
+
+.sa_ax_product_description2 p {
+	font-family: Verdana,Arial,Helvetica,sans-serif !important;
+	font-size:11px !important;
+	line-height: 16px !important;
+	color: #414143 !important;
+	font-weight:normal !important;
+	margin: 11px 0 0 0 !important;
+	padding: 0 !important;
+}
+
+.sa_ax_product_buttons2{
+  margin:0;
+  padding:0;
+	margin-right:5px;
+	width:78px;
+	display:block;
+	float:right;
+}
+
+.sa_ax_product_industry{
+	margin:10px 0 0 20px;
+	padding:10px 0 6px 20px;
+	_padding:10px 0 6px 10px;
+	width:549px;
+	min-height:112px;
+	height:auto !important;
+	height:112px;
+	border:solid 1px #E4E4E4;
+	float:left;
+	font-size:11px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+.sa_ax_product_industry p {
+	margin:5px 0 0 0;
+	padding:0;
+	font-size:11px;
+	line-height: 16px;
+}
+
+a.sa_ax_btn_product_price {
+  margin: 0 0 5px 0;
+  padding:0;
+  width: 76px;
+  height: 22px;
+  display: block;
+  float: left;
+  background-color: transparent;
+  background-image: url("/images/btn_demo_price.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0pt -26px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  text-indent: -9999px;
+}
+
+a.sa_ax_btn_product_demo {
+  margin: 0 0 5px 0;
+  padding:0;
+  width: 76px;
+  height: 22px;
+  display: block;
+  float: left;
+  background-color: transparent;
+  background-image: url("/images/btn_demo_price.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0pt 0pt;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  text-indent: -9999px;
+}
+
+a.sa_ax_btn_product_price:hover {
+  background-color: transparent;
+  background-image: url("/images/btn_demo_price.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: -75px -26px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+a.sa_ax_btn_product_demo:hover {
+  background-color: transparent;
+  background-image: url("/images/btn_demo_price.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: -75px 0pt;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+a.sa_ax_btn_product_compare_pricing {
+  margin: 0 0 5px 0;
+  padding:0;
+  width: 86px;
+  height: 40px;
+  display: block;
+  float: left;
+  background-color: transparent;
+  background-image: url("/img/btn_demo_compare_price.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  text-indent: -9999px;
+}
+
+a.sa_ax_btn_product_compare_pricing_wide {
+  margin: 0 0 5px 0;
+  padding:0;
+  width: 150px;
+  height: 26px;
+  display: block;
+  float: left;
+  background-color: transparent;
+  background-image: url("/img/btn_demo_compare_pricing_wide.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0pt -26px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  text-indent: -9999px;
+}
+
+#sa_ax_footer {
+  padding:0;
+  margin:10px 0 0 20px;
+}
