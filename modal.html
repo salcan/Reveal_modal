@@ -3,29 +3,20 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1348.17">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.8px; font: 16.0px Courier; color: #333333; -webkit-text-stroke: #333333; background-color: #fafafa}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.8px; font: 16.0px Courier; color: #333333; -webkit-text-stroke: #333333; background-color: #fafafa; min-height: 19.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.8px; font: 16.0px Courier; color: #dd1144; -webkit-text-stroke: #dd1144; background-color: #fafafa}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.8px; font: 16.0px Courier; color: #000080; -webkit-text-stroke: #000080; background-color: #fafafa}
-    span.s1 {font-kerning: none; color: #000080; -webkit-text-stroke: 0px #000080}
-    span.s2 {font-kerning: none; color: #008080; -webkit-text-stroke: 0px #008080}
-    span.s3 {font-kerning: none; color: #dd1144; -webkit-text-stroke: 0px #dd1144}
-    span.s4 {font-kerning: none}
-    span.s5 {font-kerning: none; color: #333333; -webkit-text-stroke: 0px #333333}
-  </style>
-</head>
+  <title>Test Page</title>
+  <link href="/foundation/css/foundation.css" rel="stylesheet" />
+
 <body>
-<p class="p1"><span class="s1">&lt;a </span><span class="s2">href</span><span class="s1">=</span><span class="s3">"#"</span><span class="s1"> </span><span class="s2">data-reveal-id</span><span class="s1">=</span><span class="s3">"myModal"</span><span class="s1">&gt;</span><span class="s4">Click Me For A Modal</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p2"><span class="s4"></span><br></p>
-<p class="p3"><span class="s1">&lt;div </span><span class="s2">id</span><span class="s1">=</span><span class="s4">"myModal"</span><span class="s1"> </span><span class="s2">class</span><span class="s1">=</span><span class="s4">"reveal-modal"</span><span class="s1"> </span><span class="s2">data-reveal</span><span class="s1"> </span><span class="s2">aria-labelledby</span><span class="s1">=</span><span class="s4">"modalTitle"</span><span class="s1"> </span><span class="s2">aria-hidden</span><span class="s1">=</span><span class="s4">"true"</span><span class="s1"> </span><span class="s2">role</span><span class="s1">=</span><span class="s4">"dialog"</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;h2 </span><span class="s2">id</span><span class="s1">=</span><span class="s3">"modalTitle"</span><span class="s1">&gt;</span><span class="s4">Awesome. I have it.</span><span class="s1">&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;p </span><span class="s2">class</span><span class="s1">=</span><span class="s3">"lead"</span><span class="s1">&gt;</span><span class="s4">Your couch.<span class="Apple-converted-space">  </span>It is mine.</span><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;p&gt;</span><span class="s4">I'm a cool paragraph that lives inside of an even cooler modal. Wins!</span><span class="s1">&lt;/p&gt;</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;a </span><span class="s2">class</span><span class="s1">=</span><span class="s4">"close-reveal-modal"</span><span class="s1"> </span><span class="s2">aria-label</span><span class="s1">=</span><span class="s4">"Close"</span><span class="s1">&gt;</span><span class="s5">&amp;#215;</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p4"><span class="s4">&lt;/div&gt;</span></p>
+
+<a href="#" data-reveal-id="myModal">Popup Modal!</a>
+
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">Awesome. I have it.</h2>
+  <p class="lead">Your couch.  It is mine.</p>
+  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
 </body>
 </html>
